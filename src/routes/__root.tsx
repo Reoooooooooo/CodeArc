@@ -31,14 +31,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "CodeARC" },
+      { name: "description", content: "CodeARC is a comprehensive educational website designed to teach coding and programming concepts to students. The website serves as an interactive learning" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "CodeARC" },
+      { property: "og:description", content: "CodeARC is a comprehensive educational website designed to teach coding and programming concepts to students. The website serves as an interactive learning" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "CodeARC" },
+      { name: "twitter:description", content: "CodeARC is a comprehensive educational website designed to teach coding and programming concepts to students. The website serves as an interactive learning" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/ABWsGDq45Kb3Z7fm3iN5caOEWL63/social-images/social-1778086804365-ChatGPT_Image_May_6,_2026,_07_59_34_PM.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/ABWsGDq45Kb3Z7fm3iN5caOEWL63/social-images/social-1778086804365-ChatGPT_Image_May_6,_2026,_07_59_34_PM.webp" },
     ],
     links: [
       {
