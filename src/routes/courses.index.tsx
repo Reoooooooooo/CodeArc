@@ -31,7 +31,7 @@ function CoursesIndex() {
       setCourses(
         (data ?? []).map((c) => ({
           id: c.id, title: c.title, description: c.description, level: c.level as Course["level"],
-          // @ts-expect-error nested count
+          // @ts-ignore nested count
           lesson_count: c.lessons?.[0]?.count ?? 0,
         })),
       );

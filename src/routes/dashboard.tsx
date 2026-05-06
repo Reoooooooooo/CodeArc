@@ -41,7 +41,7 @@ function Dashboard() {
 
       const cs: Course[] = (courseRows ?? []).map((c) => ({
         id: c.id, title: c.title, level: c.level,
-        // @ts-expect-error nested count
+        // @ts-ignore nested count
         lesson_count: c.lessons?.[0]?.count ?? 0,
       }));
       setCourses(cs);
